@@ -1,0 +1,18 @@
+# Site settings
+title: WebDev NEWBIE'S DIARY
+description: "Web development student's blog."
+baseurl: "/ups-n-downs"
+url: "http://maxhomm.github.io/ups-n-downs"
+tagline: "My ups and downs in studying webdev"
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: '/blog/page:num/'
+kramdown:
+    auto_ids: false
+permalink: /blog/:title
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
