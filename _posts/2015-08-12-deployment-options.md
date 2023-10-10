@@ -27,7 +27,7 @@ Github uses Jekyll to power it’s Github Pages feature, so it’s only natural 
 
 The workflow for deploying to Github Pages is simple. Login to your Github account, create a new repo, and then point your local repo to use the new Github repo as its remote. Create a new branch called `gh-pages` and push everything except the **_site** directory to your new Github repo. Github will detect the Jekyll site, build it, and serve the site at the appropriate URL. From there, updating the site is as simple as writing a new Markdown file and making a push. 
 
-###More information
+### More information
 
 For more information on deploying Jekyll sites (and more options), check out the section on [deployment methods](http://jekyllrb.com/docs/deployment-methods/ "deployment methods") in Jekyll’s documentation. 
 
